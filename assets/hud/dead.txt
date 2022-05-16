@@ -1,0 +1,45 @@
+<button@name=background;pos={0:0:800:600};border=false;texture=assets/background/wall.png@/>
+<view@
+    name=dead_view
+    hidden=false
+    pos={50:162:700:275}
+    color={50:50:50:255}
+    borderColor={200:200:200:255}
+    @
+    <button@
+        name=respawn
+        pos={25:25:200:100}
+        action=launch_game
+        color={125:125:125:255}
+        actionColor={125:125:125:255}
+        borderColor={0:0:0:0}
+        actionBorderColor={255:163:0:255}
+        font=assets/font/Optimus.ttf
+        text=RESPAWN
+        fontSize=40
+    @/>
+    <button@
+        name=launch_menu
+        pos={250:25:200:100}
+        action=launch_menu
+        color={125:125:125:255}
+        actionColor={125:125:125:255}
+        borderColor={0:0:0:0}
+        actionBorderColor={255:163:0:255}
+        font=assets/font/Optimus.ttf
+        text=MENU
+        fontSize=40
+    @/>
+    <button@
+        name=quit_game
+        pos={475:25:200:100}
+        action=quit_game
+        color={125:125:125:255}
+        actionColor={125:125:125:255}
+        borderColor={0:0:0:0}
+        actionBorderColor={255:163:0:255}
+        font=assets/font/Optimus.ttf
+        text=QUIT
+        fontSize=40
+    @/>
+/>

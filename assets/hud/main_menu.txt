@@ -1,0 +1,146 @@
+<button@name=background;pos={0:0:800:600};border=false;texture=assets/background/wall.png@/>
+<button@
+    name=game_title
+    pos={325:15:200:100}
+    color={0:0:0:0}
+    actionColor={0:0:0:0}
+    border=false
+    font=assets/font/Optimus.ttf
+    text=PurishTheUndead
+    fontSize=40
+@/>
+<view@
+    name=main_menu
+    hidden=false
+    pos={150:100:250:400}
+    color={50:50:50:255}
+    borderColor={200:200:200:255}
+    @
+    <button@
+        name=launch_game
+        pos={25:25:200:100}
+        action=launch_game
+        color={125:125:125:255}
+        actionColor={125:125:125:255}
+        borderColor={0:0:0:0}
+        actionBorderColor={255:163:0:255}
+        font=assets/font/Optimus.ttf
+        text=START
+        fontSize=40
+    @/>
+    <button@
+        name=settings
+        toggleable=true
+        pos={25:150:200:100}
+        action=settings
+        color={125:125:125:255}
+        actionColor={125:125:125:255}
+        borderColor={0:0:0:0}
+        actionBorderColor={255:163:0:255}
+        font=assets/font/Optimus.ttf
+        text=SETTINGS
+        fontSize=40
+    @/>
+    <button@
+        name=quit_game
+        pos={25:275:200:100}
+        action=quit_game
+        color={125:125:125:255}
+        actionColor={125:125:125:255}
+        borderColor={0:0:0:0}
+        actionBorderColor={255:163:0:255}
+        font=assets/font/Optimus.ttf
+        text=QUIT
+        fontSize=40
+    @/>
+/>
+
+<view@
+    name=settings_view
+    hidden=true
+    pos={425:100:250:400}
+    color={50:50:50:255}
+    borderColor={200:200:200:255}
+    @
+    <button@
+        name=800
+        pos={25:25:66:100}
+        color={125:125:125:255}
+        actionColor={125:125:125:255}
+        borderColor={0:0:0:0}
+        actionBorderColor={255:163:0:255}
+        action=resolution_setting
+        font=assets/font/Optimus.ttf
+        text=600
+        fontSize=40
+    @/>
+    <button@
+        name=720
+        pos={91:25:66:100}
+        color={125:125:125:255}
+        actionColor={125:125:125:255}
+        borderColor={0:0:0:0}
+        actionBorderColor={255:163:0:255}
+        action=resolution_setting
+        font=assets/font/Optimus.ttf
+        text=720
+        fontSize=40
+    @/>
+    <button@
+        name=1080
+        pos={157:25:67:100}
+        color={125:125:125:255}
+        actionColor={125:125:125:255}
+        borderColor={0:0:0:0}
+        actionBorderColor={255:163:0:255}
+        action=resolution_setting
+        font=assets/font/Optimus.ttf
+        text=1080
+        fontSize=40
+    @/>
+
+    <button@
+        name=mute_settings
+        pos={25:150:200:100}
+        action=sound_setting
+        color={125:125:125:255}
+        actionColor={125:125:125:255}
+        borderColor={0:0:0:0}
+        actionBorderColor={255:163:0:255}
+        font=assets/font/Optimus.ttf
+        text=MUTE
+        fontSize=40
+    @/>
+    <button@
+        name=back_settings
+        pos={25:275:200:100}
+        action=quit_settings
+        color={125:125:125:255}
+        actionColor={125:125:125:255}
+        borderColor={0:0:0:0}
+        actionBorderColor={255:163:0:255}
+        font=assets/font/Optimus.ttf
+        text=BACK
+        fontSize=40
+    @/>
+/>
+
+<button@name=how_to_play;hidden=true;pos={0:0:800:600};border=false;texture=assets/background/how_to_play.png@/>
+<view@
+    color={0:0:0:0}
+    border=false
+    pos={725:25:50:50}
+    @
+    <button@
+        name=how_to_play_button
+        pos={0:0:50:50}
+        color={125:125:125:255}
+        actionColor={125:125:125:255}
+        borderColor={0:0:0:0}
+        actionBorderColor={255:163:0:255}
+        action=how_to_play
+        font=assets/font/Optimus.ttf
+        text=?
+        fontSize=40
+    @/>
+/>
